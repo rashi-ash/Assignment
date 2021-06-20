@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header" >
+    <nav>
+        <a href="index.html"><img src="images/logo ss.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                 <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Course.htm">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+<!-- -------------------about us content---------------------- -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Sullamussalam Science College</h1>
+            <p>Sullamussalam Science College is a first grade aided college affiliated to University of Calicut, approved
+                 by University Grants Commission and accredited by the NAAC with A grade. The College is located on the
+                 picturesque hills of Perumparamba on the banks of the river Chaliyar, a kilometer away from Areacode town 
+                 in Malappuram District. The college is run by Muslim Educational Association, an educational organization 
+                 formed in 1994 under the auspices of Jamiyyathul Mujahideen Sangam, one of the pioneer reformist muslim
+                  educational movements in Malabar. The college was founded with the objective of imparting quality education
+               to backward minority communities in rural areas of Malabar. Thanks to the Almighty, it has so far triumphed
+                in its objectives, despite various constraints.&nbsp; Now on a stable footing, the college is venturing into 
+                new avenues of higher education. Policies&nbsp;and Special features The management believes in Islamic values
+                 and in the true spirit of education and thus totally against the commercialization of education. No capitation
+                  fee for staff appointments and student admissions Consistently excellent academic records Many prestigious 
+                  University ranks No politics based elections The campus is free from strikes Exemplary student democratic
+                   activities Many clubs and forums meant for all-round development of students.</p>
+                  <a href="contact.html" class="btn  bt" >EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <iframe width="580" height="380" src="https://www.youtube.com/embed/DAP02cVlSAA" frameborder="0"
+             allowfullscreen="" class="vdoFrame"></iframe>
+        </div>
+    </div>
+
+</section>
+
+<!-- ----------------------------footer----------------------------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Sullamussalam Science College is a first grade aided college affiliated to University of Calicut, approved
+                 by University Grants Commission and accredited by the NAAC with A grade.</p>   
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div> 
+         <p>Made with <i class="fa fa-heart" ></i>BY RASHIDA V</p>
+    
+</section>
+<!-- ----------------------------------java script--------------------------------------- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right ="0";
+    }
+    function hidemenu(){
+        navLinks.style.right ="-200px";
+    }
+
+</script>
+</body>
+</html>
