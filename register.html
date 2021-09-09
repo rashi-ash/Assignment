@@ -14,13 +14,10 @@
         min-height:100vh;
         transition: 0.5s;
         transition-timing-function: ease-in;
-        background-image: linear-gradient(to right bottom, #a0c7ec, #ddf3ef);
+        background-image: linear-gradient(to right bottom, #3695ED, #0AF7CC);
       }
       h1 {
         color: rgb(255, 0, 157);
-        text-align: center;
-      }h4 {
-        color: rgb(5, 5, 32);
         text-align: center;
       }
       .showcase video {
@@ -103,23 +100,7 @@
         border: 2px solid #690881;
         background: #292933;
         transition: 1s;
-      }.btn2{
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        border: 1px solid #fff;
-        padding: 12px 34px;
-        font-size: 13px;
-        background: transparent;
-        position: relative;
-        cursor: pointer;
-    }
-    .btn2:hover{
-        border: 1px solid #082581;
-        background: #101cbd;
-        transition: 1s;
-    }
-    
+      }
       @media (max-width: 700px) {
         .form {
           width: 75%;
@@ -143,10 +124,10 @@
   </head>
   <body>
     <h1>Sullamussalam Science College Areacode</h1>
-    <h4><a href="register.html" class="btn2"> register?</a></h4>
+    
 
     <div class="form">
-      <form action="process.php" method="post">
+      <form action="register.php" method="post">
         <input
           class="inp"
           type="text"
@@ -160,6 +141,13 @@
           placeholder="password"
           id="pass"
           name="password"
+        /><br />
+         <input
+          class="inp"
+          type="email"
+          placeholder="email"
+          id="mail"
+          name="email"
         /><br />
 
         <input
