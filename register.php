@@ -15,7 +15,7 @@ if(isset($_POST['submit'])&&!empty($_POST['submit'])){
         
         header('Location: index.html');
     }else{
-            echo $sql;
+            echo "Some error occured while registering, Please try once again";
         
           
     }
